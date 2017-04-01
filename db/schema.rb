@@ -10,11 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170401075347) do
+ActiveRecord::Schema.define(version: 20170401080814) do
 
   create_table "comment", force: :cascade do |t|
     t.integer "comment_id",             null: false
     t.string  "comment",    limit: 255, null: false
+  end
+
+  create_table "dish", force: :cascade do |t|
+    t.integer "dish_id",               null: false
+    t.string  "dish_name", limit: 255, null: false
   end
 
   create_table "shop", force: :cascade do |t|
