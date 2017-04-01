@@ -1,0 +1,19 @@
+current directory: /home/hiroki/Documents/webpage/wordimpressions/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+/usr/bin/ruby2.3 -r ./siteconf20170401-3888-1dtyqy0.rb extconf.rb
+creating Makefile
+
+current directory: /home/hiroki/Documents/webpage/wordimpressions/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/hiroki/Documents/webpage/wordimpressions/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/hiroki/Documents/webpage/wordimpressions/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20170401-3888-1hd76z1/byebug
