@@ -34,4 +34,10 @@ group :development do
   gem 'pry'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
+  gem 'hirb'
+  gem 'hirb-unicode'
+
+  gem 'pry-rails'
+  gem 'pry-doc'
+  gem 'pry-byebug'
 end
