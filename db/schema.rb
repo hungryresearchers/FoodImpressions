@@ -12,17 +12,17 @@
 
 ActiveRecord::Schema.define(version: 20170401080814) do
 
-  create_table "comment", force: :cascade do |t|
+  create_table "comments", force: :cascade do |t|
     t.integer "comment_id",             null: false
     t.string  "comment",    limit: 255, null: false
   end
 
-  create_table "dish", force: :cascade do |t|
+  create_table "dishes", force: :cascade do |t|
     t.integer "dish_id",               null: false
     t.string  "dish_name", limit: 255, null: false
   end
 
-  create_table "shop", force: :cascade do |t|
+  create_table "shops", force: :cascade do |t|
     t.integer "shop_id",               null: false
     t.string  "shop_name", limit: 255, null: false
   end

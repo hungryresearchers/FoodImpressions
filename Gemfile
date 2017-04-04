@@ -40,4 +40,5 @@ group :development do
   gem 'pry-rails'
   gem 'pry-doc'
   gem 'pry-byebug'
+  gem 'annotate'
 end
