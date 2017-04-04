@@ -1,3 +1,10 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  #root
+  get '/static/index'
+  root 'static#index'
+
+  get '/new' => 'post#new'
+  get '/show' => 'post#show'
+
+  resources :post
 end
