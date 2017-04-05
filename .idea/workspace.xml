@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc607caf-d069-4c6b-aa1e-1cad7062e3d5" name="デフォルト" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/post.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20170405022803_create_posts.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/posts.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/post_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/wordimpressions.iml" afterPath="$PROJECT_DIR$/.idea/wordimpressions.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20170401075309_shop.rb" afterPath="$PROJECT_DIR$/db/migrate/20170401075309_shop.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20170401075347_comment.rb" afterPath="$PROJECT_DIR$/db/migrate/20170401075347_comment.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20170401080814_dish.rb" afterPath="$PROJECT_DIR$/db/migrate/20170401080814_dish.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -32,8 +22,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="244" column="83" lean-forward="false" selection-start-line="244" selection-start-column="83" selection-end-line="244" selection-end-column="83" />
+            <state relative-caret-position="678">
+              <caret line="246" column="6" lean-forward="false" selection-start-line="246" selection-start-column="6" selection-end-line="246" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -163,7 +153,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="gitigno&#9;FILE&#9;file:///home/hiroki/Documents/webpage/wordimpressions/.gitignore" />
+    <property name="SearchEverywhereHistoryKey" value="gem&#9;FILE&#9;file:///home/hiroki/Documents/webpage/wordimpressions/Gemfile&#10;gitigno&#9;FILE&#9;file:///home/hiroki/Documents/webpage/wordimpressions/.gitignore" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -354,12 +344,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491031194046</updated>
       <workItem from="1491031195848" duration="1221000" />
-      <workItem from="1491373118244" duration="1353000" />
+      <workItem from="1491373118244" duration="1866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2574000" />
+    <option name="totallyTimeSpent" value="3087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1879" height="1053" extended-state="6" />
@@ -442,14 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -469,10 +451,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="244" column="83" lean-forward="false" selection-start-line="244" selection-start-column="83" selection-end-line="244" selection-end-column="83" />
+        <state relative-caret-position="678">
+          <caret line="246" column="6" lean-forward="false" selection-start-line="246" selection-start-column="6" selection-end-line="246" selection-end-column="6" />
           <folding />
         </state>
       </provider>
