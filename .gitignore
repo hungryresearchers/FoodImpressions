@@ -243,3 +243,4 @@ Session.vim
 tags
 
 # End of https://www.gitignore.io/api/rails,ruby,osx,linux,vim,sublimetext,rubymine
+.idea/runConfigurations/
