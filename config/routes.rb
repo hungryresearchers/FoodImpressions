@@ -20,8 +20,8 @@ Rails.application.routes.draw do
   get '/static/index'
   root 'static#index'
 
-  get '/new' => 'post#new'
-  get '/show' => 'post#show'
+  get 'new_post' => 'post#new'
+  get 'show_post' => 'post#show'
 
   resources :post
 end

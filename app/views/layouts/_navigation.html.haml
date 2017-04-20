@@ -9,10 +9,10 @@
       %a.navbar-brand{:href => "#"} FoodImpression
     #bs-example-navbar-collapse-1.collapse.navbar-collapse
       %ul.nav.navbar-nav
-        %li.active
-          %a{:href => "/new"} 新規投稿
         %li
-          %a{:href => "/show"} 投稿一覧
+          %a{:href => "new_post"} 新規投稿
+        %li
+          %a{:href => "show_post"} 投稿一覧
         %li.dropdown
           %a.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :href => "#", :role => "button"}
             Dropdown
