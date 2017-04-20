@@ -10,9 +10,9 @@
     #bs-example-navbar-collapse-1.collapse.navbar-collapse
       %ul.nav.navbar-nav
         %li
-          %a{:href => "new_post"} 新規投稿
+          = link_to '新規投稿', new_posts_path
         %li
-          %a{:href => "show_post"} 投稿一覧
+          = link_to '投稿一覧', show_posts_path
         %li.dropdown
           %a.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :href => "#", :role => "button"}
             Dropdown
