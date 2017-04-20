@@ -90,6 +90,7 @@ bower.json
 # Ignore Byebug command history file.
 .byebug_history
 
+<<<<<<< Updated upstream
 ### Ruby ###
 *.gem
 /.config
@@ -245,3 +246,6 @@ tags
 # End of https://www.gitignore.io/api/rails,ruby,osx,linux,vim,sublimetext,rubymine
 .idea/runConfigurations/
 .idea/
+=======
+/.idea/
+>>>>>>> Stashed changes

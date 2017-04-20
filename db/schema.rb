@@ -12,6 +12,16 @@
 
 ActiveRecord::Schema.define(version: 20170405022803) do
 
+  create_table "comments", force: :cascade do |t|
+    t.integer "comment_id",             null: false
+    t.string  "comment",    limit: 255, null: false
+  end
+
+  create_table "dishes", force: :cascade do |t|
+    t.integer "dish_id",               null: false
+    t.string  "dish_name", limit: 255, null: false
+  end
+
   create_table "posts", force: :cascade do |t|
     t.integer  "shop_id"
     t.string   "shop_name",  limit: 255, null: false
@@ -19,6 +29,11 @@ ActiveRecord::Schema.define(version: 20170405022803) do
     t.string   "comment",    limit: 225, null: false
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
+  end
+
+  create_table "shops", force: :cascade do |t|
+    t.integer "shop_id",               null: false
+    t.string  "shop_name", limit: 255, null: false
   end
 
 end
