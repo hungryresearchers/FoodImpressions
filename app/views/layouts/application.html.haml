@@ -1,0 +1,11 @@
+!!!
+%html
+  %head
+    %title Wordimpressions
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  %body
+    = render 'layouts/navigation'
+    = yield
+    = render 'layouts/footer'
