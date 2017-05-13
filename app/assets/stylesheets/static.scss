@@ -1,0 +1,42 @@
+.food_img{
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  z-index: -1
+}
+.title{
+  position: relative;
+  top: -500px;
+  z-index: 1;
+  h1{
+    font-size: 80px;
+    font-family: courier;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+  }
+  h3{
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+  }
+}
+
+.article{
+  padding-left: 40px;
+  p{
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+}
+
+.submit{
+  p{
+    font-size: 30px;
+  }
+  button{
+    font-size: 40px;
+  }
+}
+
+nav{
+  display: none;
+}

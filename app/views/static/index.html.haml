@@ -1,0 +1,18 @@
+.container-fluid.no_navi
+  .row.food_img
+  = image_tag("static_food.jpg", class: "food_img" )
+  .title
+    %h1.text-center FoodImpression
+    %h3.text-center 食後の感想をみんなで共有しましょう。
+  .row
+    .col-md-6.col-xs-6
+      .article
+        %p.text-center 食べたすぐ後の感想ほど新鮮なものはありません！！
+        %p.text-center 食事をし、店と食べた料理を選び一言だけ感想を入力してください！
+        %p.text-center 食べログなどのようにながったらしい評価をする必要はないのです！
+    .col-md-6.col-xs-6
+      =image_tag("static_food.jpg", class: "food_img")
+  .row.text-center.submit
+    %p さあ始めましょう！！
+    %button.btn.btn-default.btn-primary 投稿する
+  
