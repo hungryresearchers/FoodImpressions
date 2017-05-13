@@ -19,9 +19,10 @@ class PostController < ApplicationController
     @post = Post.new(create_post_columns)
     if @post.save
       flash[:success] = t('flash.create')
+      redirect_to post_item @post
     else
       flash[:danger] = t('flash.danger')
-      format.html {render :new}
+      redirect_to :back
     end
   end
 
@@ -31,6 +32,17 @@ class PostController < ApplicationController
       flash[:success] = t('flash.destroy')
       format.html { redirect_to root}
     end
+  end
+
+  private def permit_params
+    params.
+      require(:posts).
+      permit(
+        :shop_id,
+        :shop_name,
+        :dish_name,
+        :comment
+      )
   end
 end
 #TODO tableをshop>dish>commentの階層にしたいんだけど、、、

@@ -5,7 +5,7 @@ class CreatePosts < ActiveRecord::Migration[5.0]
       t.string "shop_name", limit: 255, null: false
       t.string "dish_name", limit: 255, null: false
       t.string "comment", limit: 225, null: false
-      t.timestamps "created_at"
+      t.timestamps null: false
     end
   end
 end
