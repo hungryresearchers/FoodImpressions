@@ -7,5 +7,7 @@
 #  comment    :string(255)      not null
 #
 
-class Comment < ApplicationRecord
+class Comment < ApplicationRecord::Base
+  has_many :dish
+  has_many :shop, through: :dish
 end

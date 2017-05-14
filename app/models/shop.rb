@@ -8,4 +8,6 @@
 #
 
 class Shop < ApplicationRecord
+  has_many :dish
+  has_many :comment, through: :dish
 end
