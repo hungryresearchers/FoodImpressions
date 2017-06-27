@@ -16,13 +16,7 @@
 #
 
 Rails.application.routes.draw do
-  #root
-  get '/static/index'
   root 'static#index'
-
-  get '/posts/new(.:format)' => 'posts#new'
-  get 'show' => 'post/show'
-  # get '/areas/get_areas' => 'areas#get_areas', as: 'area_get_areas'
 
   resources :posts
 end
