@@ -90,7 +90,6 @@ bower.json
 # Ignore Byebug command history file.
 .byebug_history
 
-<<<<<<< Updated upstream
 ### Ruby ###
 *.gem
 /.config
@@ -248,4 +247,3 @@ tags
 .idea/
 =======
 /.idea/
->>>>>>> Stashed changes
